@@ -1,3 +1,5 @@
+URL::forceRootUrl(config('app.url'));
+
 ./vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php
 ``` php
     public function asset($path, $secure = null)
